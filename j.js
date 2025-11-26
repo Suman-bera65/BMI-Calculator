@@ -1,6 +1,6 @@
-let a = document.getElementById("weight");//DOM
+let a = document.getElementById("weight");
 let b = document.getElementById("height");
-let c = document.getElementById("bmi");//object hai c
+let c = document.getElementById("bmi");
 
 function calculateBMI() {
     let weight = parseFloat(a.value);
